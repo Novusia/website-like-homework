@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    min-width: 1000px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+    
+header{
+    width: 90%;
+    height: 90vh;
+    background-image: url('../assets/herobanner.jpg');
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 35px;
+    
+    position: relative;
+    }
+
+.img-now{
+    width: 50%;
+    height: auto;
+    
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+header h1{
+    position: absolute;
+    top: 49%;
+    left: 33%;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+}
+
+h1{
+    font-size: 70px;
+    margin: auto;
+}
+
+h1,h2{
+    color: #7639FE;
+}
+
+h2{
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+p{
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+
+header ul.menu{
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+}
+
+header ul.menu li{
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 26px;
+    display: inline;
+    padding-right: 20px;
+}
+
+ul.connect-internet{
+    list-style: none;
+    position: absolute;
+    left: -190px;
+    top: 250px;
+     
+}
+
+ ul.connect-internet>li{
+    width: 40px;
+    height: auto;
+    
+}
+
+ul.connect-internet>li>img{
+    
+}
+
+
+section.section-hello-studio{
+    width: 100%;
+    min-height: 900px;
+    background-color: #F2F2F2;
+    
+}
+
+section.section-hello-studio h2{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 10vw;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-right: 0;
+    width: 50vw;
+}
+
+
+section.section-hello-studio p{
+    line-height: 150%;
+    color: #8A8A8A;
+    margin-right: 0;
+    width: 40vw;
+}
+
+section.section-hello-studio p:first-of-type{
+    margin-bottom: 50px;
+    float: left;
+    
+}
+
+.section-hello-studio-left{
+    float: left;
+    margin-right: 8vw;
+}
+
+section.section-hello-studio>figure>img{
+    width:30vw;
+    float: left;
+}
+
+.gallery{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.gallery h2{
+    font-size: 60px;
+}
+
+.gallery p{
+    width: 59vw;
+    color: #8A8A8A;
+}
+
+.section-open-time{
+    background-image: url('../assets/herobanner.jpg');
+    height: 500px;
+    width: 100%;
+    color: #fff;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.section-open-time h3{
+    font-weight: 400;
+}
+
+.section-services{
+    background: #20002c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #20002c, #cbb4d4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #20002c, #cbb4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: #fff;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.section-services h2,ul,p,form,h3,.figure-section-services{
+    padding-left: 10vw;
+}
+
+.section-services h2:first-of-type{
+    width: 400px;
+}
+
+.section-services h2{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-services ul {
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.section-services ul li{
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+
+.figure-section-services, img.figure-section-services{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.section-services p:first-of-type{
+    margin-bottom: 20px;
+}
+
+.section-services h2{
+    clear: both;
+}
+
+.right-section-services{
+    width: 700px;
+    position: absolute;
+    top: 170px;
+    right: 10%;
+}
+
+.h2-contact-section-services{
+    margin-top: 150px;
+}
+
+
+input{
+    display: block;
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+input[type="submit"] {
+    border-radius: 25px;
+    padding: 15px;
+    color: #7639FE;
+    background-color: #fff;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+
+.h3-hello,.p-hello{
+    width: 700px;
+    position: absolute;
+    right: 10%;
+}
+
+.h3-hello{
+    top: 720px;
+}
+
+.p-hello{
+    top: 770px;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    color: #7639FE;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+}
+
+footer h4{
+    margin: auto;
+}
+
+footer span{
+    color: #000000;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+    opacity: 1;
+  
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #fff;
+  opacity: 1;
+}
